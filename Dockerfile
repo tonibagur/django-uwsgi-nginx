@@ -33,6 +33,7 @@ run apt-get install -y sqlite3
 
 # install our code
 add . /home/docker/code/
+add nginx.conf /etc/nginx/nginx.conf
 
 # setup all the configfiles
 run echo "daemon off;" >> /etc/nginx/nginx.conf
