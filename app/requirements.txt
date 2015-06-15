@@ -4,3 +4,4 @@ django-cors-headers
 django-modeltranslation
 django-mptt
 pillow
+pytz
